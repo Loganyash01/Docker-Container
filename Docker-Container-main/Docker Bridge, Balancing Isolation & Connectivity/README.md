@@ -105,7 +105,7 @@ docker exec -it Yash-database ping 172.17.0.2
 docker network inspect Yash-bridge
 docker network inspect bridge
 ```
-✅ `tarak-bridge` should contain `himasnhu-database` & `Yash-server-A`.
+✅ `tarak-bridge` should contain `yash-database` & `Yash-server-A`.
 ✅ `bridge` should contain `Yash-server-B`.
 
 ---
