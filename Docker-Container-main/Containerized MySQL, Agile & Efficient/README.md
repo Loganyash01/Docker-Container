@@ -3,7 +3,7 @@
 ## 📌 Prerequisites
 - ✅ Install Docker on your system.
 - ✅ Ensure Docker is running.
-- ✅ Create an SQL initialization script (e.g., `Himanshu_demo.sql`) with database and table definitions.
+- ✅ Create an SQL initialization script (e.g., `Yash_demo.sql`) with database and table definitions.
 
 ---
 
@@ -13,7 +13,7 @@ Ensure your project directory is organized as follows:
 ```
 project-directory/
 │── Dockerfile
-│── Himanshu_demo.sql
+│── Yash_demo.sql
 ```
 
 This structure keeps all necessary files in one place for an efficient setup.
@@ -28,7 +28,7 @@ Create a `Dockerfile` in your project directory:
 FROM mysql:latest
 
 # 📂 Copy initialization script to the container
-COPY Himanshu_demo.sql /docker-entrypoint-initdb.d/
+COPY Yash_demo.sql /docker-entrypoint-initdb.d/
 
 # 🔥 Expose MySQL port
 EXPOSE 3306
@@ -37,11 +37,11 @@ EXPOSE 3306
 ---
 
 ## 📜 Step 2: Create an SQL Initialization Script
-Create a file named `Himanshu_demo.sql` in the same directory:
+Create a file named `Yash_demo.sql` in the same directory:
 
 ```sql
 CREATE DATABASE Tarak;
-USE Himanshu;
+USE Yash;
 
 CREATE TABLE students (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -109,10 +109,10 @@ After logging into MySQL, check the available databases:
 SHOW DATABASES;
 ```
 
-🔄 Switch to the `Himanshu` database:
+🔄 Switch to the `Yash` database:
 
 ```sql
-USE Himanshu;
+USE Yash;
 ```
 
 📊 Query the `students` table:
