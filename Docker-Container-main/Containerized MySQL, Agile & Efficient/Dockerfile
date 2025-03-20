@@ -4,4 +4,4 @@ FROM mysql:latest
 ENV MYSQL_ROOT_PASSWORD=root
 
 # Copy your SQL initialization script into the proper directory
-COPY Himanshu_demo.sql /docker-entrypoint-initdb.d/
+COPY Yash_demo.sql /docker-entrypoint-initdb.d/
