@@ -55,7 +55,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "rajput_tarakk"
+    return "yadav_yash"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
@@ -168,7 +168,7 @@ Open your browser and go to:
 ```sh
 http://localhost:8080
 ```
-You should see: **API Gateway: rajput_tarakk**
+You should see: **API Gateway: yadav_yash**
 
 <p align="center">
   <img src="https://github.com/TarakKatoch/My-Docker-Dockyard/raw/d470c6d6dac0fd0010f139168e48e4086da874f4/Microservices%20Architecture%20using%20Docker%20Swarm/assets/Screenshot%202025-03-19%20015446.png" alt="Project Screenshot" />
